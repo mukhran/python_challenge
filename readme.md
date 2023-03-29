@@ -1,1 +1,2 @@
-python challenge
+To perform challenges, I created two Python scripts, one for each challenge, to analyze financial records and analyze voting results.
+I used knowledge of importing csv module, reading and writing files in various formats, storing content in variables, lists, iterating through basic data structures. 

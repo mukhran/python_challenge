@@ -1,6 +1,8 @@
 import csv
 
 csvpath = "Resources/election_data.csv"
+
+
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
 
@@ -12,7 +14,7 @@ with open(csvpath) as csvfile:
     #Total number of votes cast
     total_votes = 0
     
-    #list of candidate
+    #list of candidates
     unique = []
     Charles = 0
     Diana = 0
